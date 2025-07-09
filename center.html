@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolg Website</title>
+    <title>Center flex</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            height: 500px;
+            
+        }
+        .box{
+            background-color: blueviolet;
+            height: 150px;
+            width: 150px;
+            font-size: 2em;
+        }
+    </style>
     <link rel="stylesheet" href="css/auto.css">
 </head>
 <body>
@@ -20,5 +36,10 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+        <div class="box">
+            Somthing
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.cards{
+    width: 250px;
+    border: 1px solid saddlebrown;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(60, 1, 1);
+
+}
+.cards:hover{
+    background-color: hsla(197, 71%, 73%, 0.32);
+}
+.cards p{
+    text-align: justify;
+}
+.cards img{
+    width: 100%;
+    border-radius: 5px;
+}
+button{
+    background-color: aqua;
+    color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
